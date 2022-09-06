@@ -59,7 +59,7 @@ body {
 
 @media screen and (max-width: 500px) {
     .main-card {
-        margin: 4rem auto;
+        margin: 4rem auto 2rem;
     }
 }
 
@@ -161,8 +161,11 @@ a:hover {
 .attribution { 
     font-size: 15px; 
     text-align: center; 
+    margin: 2rem auto 4rem;
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(329, 72%, 55%); 
+    font-weight: 700;
 }
+
