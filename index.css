@@ -1,5 +1,16 @@
 
 
+/*
+
+There was some additional space
+in the overlay at the bottom compared to the image size.
+I adjusted the height of the overlay to 97.5%.
+however, that solution does not work great when
+the card is resized to a tiny viewport.
+
+*/
+
+
 /* Custom Properties */
 
 :root {
@@ -31,7 +42,7 @@ a {
 
 body {
     background-color: var(--bg-main);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 300;
     color: white;
     line-height: 1.6;
