@@ -38,7 +38,6 @@ body {
 }
 
 .main-card {
-    position: relative;
     width: min(87.5%, 22rem);
     background-color: var(--bg-card);
     margin: 9.5rem auto;
